@@ -1,0 +1,123 @@
+---
+
+# Optional: Use external configuration file.
+# Using this will ignore remaining config in this file
+# externalConfig: https://example.com/server-luci/config.yaml
+
+columns: "auto" # auto
+
+documentTitle: "Startseite"
+
+header: false
+links:
+  - icon: "fab fa-dropbox"
+    url: "https://www.dropbox.com/"
+    target: "_blank"
+  - icon: "fas fa-sticky-note"
+    url: "https://paper.dropbox.com/"
+    target: "_blank"
+  - icon: "far fa-newspaper"
+    url: "https://news.google.com/"
+    target: "_blank"
+  - icon: "fas fa-envelope"
+    url: "https://mail.google.com/"
+    target: "_blank"
+  - icon: "fas fa-calendar-alt"
+    url: "https://calendar.google.com/"
+    target: "_blank"
+  - icon: "fas fa-address-card"
+    url: "https://contacts.google.com/"
+    target: "_blank"
+  - icon: "fas fa-tv"
+    url: "http://server:9330/display/"
+    target: "_blank"
+
+services:
+  - name: "Roon"
+    #logo: "assets/tools/roon.png"
+    items:
+      - name: "Community"
+        url: "https://community.roonlabs.com/"
+        target: "_blank"
+      - name: "Valence"
+        url: "https://valence.roonlabs.net/artdirector/"
+        target: "_blank"
+      - name: "Translations"
+        subtitle: "German"
+        url: "https://translations.roonlabs.net/lang/german/all"
+        target: "_blank"
+      - name: "Localizely"
+        url: "https://app.localizely.com/"
+        target: "_blank"
+      - name: "Deepl"
+        url: "https://deepl.com/"
+        target: "_blank"
+      - name: "Google-Translate"
+        url: "https://translate.google.com/"
+        target: "_blank"
+  - name: "Server"
+    items:
+      - name: "Dashboard"
+        subtitle: "DietPi"
+        url: "http://server:5252/"
+        target: "_blank"
+      - name: "Songkong"
+        url: "http://server:4567/"
+        target: "_blank"
+      - name: "Beets"
+        url: "http://server:8337/"
+        target: "_blank"
+      - name: "Macro.on"
+        url: "http://server:8180/"
+        target: "_blank"
+      - name: "Portainer"
+        url: "http://server:9002/"
+        type: "Portainer"
+        apikey: "<---insert-api-key-here--->"
+        target: "_blank"
+  - name: "Fritz!Box"
+    #logo: "assets/tools/fritzbox-7490.png"
+    items:
+      - name: "Fritz!Box"
+        subtitle: "FRITZ!OS"
+        url: "https://fritz.box/"
+        target: "_blank"
+      - name: "MyFRITZ!"
+        url: "https://fritz.box/myfritz/"
+        target: "_blank"
+      - name: "FRITZ!NAS"
+        url: "https://fritz.box/nas/"
+        target: "_blank"
+  - name: "Kiosk"
+    items:
+      - name: "Dashboard"
+        subtitle: "DietPi"
+        url: "http://kiosk:5252/"
+        target: "_blank"
+        #type: Ping
+  - name: "Raspi"
+    #logo: "assets/tools/raspberry.png"
+    items:
+      - name: "Dashboard"
+        subtitle: "RoPieee"
+        url: "http://raspi/"
+        target: "_blank"
+  - name: "Sonos"
+    items:
+      - name: "Options"
+        url: "http://192.168.178.62:1400/status"
+        target: "_blank"
+      - name: "Scan Results"
+        url: "http://192.168.178.62:1400/status/scanresults"
+        target: "_blank"
+      - name: "Review"
+        url: "http://192.168.178.62:1400/support/review"
+        target: "_blank"
+  - name: "DietPi"
+    items:
+      - name: "dietpi-launcher"
+      - name: "All DietPi commands"
+        url: "https://daz-dj.uk/viewtopic.php?t=27"
+        target: "_blank"
+
+footer: '<p><a href="https://dietpi.com/" target="_blank">DietPi</a> - <a href="https://roonlabs.com/" target="_blank">Roon</a> - <a href="https://sonos.com/" target="_blank">Sonos</a> - <a href="https://github.com/bastienwirtz/homer" target="_blank">Homer</a></p>'
