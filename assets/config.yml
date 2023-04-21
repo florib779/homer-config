@@ -10,15 +10,8 @@ columns: "auto" # auto
 
 documentTitle: "Startseite"
 
-message:
-  url: https://avm.de/rss/de-labor/rss.xml
-  mapping:
-    title: 'title'
-    content: 'link'
-  title: "AVM - FRITZ! Labor"
-  content: "Message could not be loaded"
+header: false
 
-header: true
 links:
   - icon: "fab fa-dropbox"
     url: "https://www.dropbox.com/"
@@ -92,6 +85,9 @@ services:
         subtitle: "FRITZ!OS"
         url: "https://fritz.box/"
         target: "_blank"
+        type: Ping
+        endpoint: "https://fritz.box/"
+        method: "head"
       - name: "MyFRITZ!"
         url: "https://fritz.box/myfritz/"
         target: "_blank"
