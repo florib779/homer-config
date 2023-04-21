@@ -185,6 +185,8 @@ services:
   - name: "DietPi-Commands"
     items:
       - name: "dietpi-autostart"
+        clipboard: "dietpi-autostart"
+        type: "CopyToClipboard"
         subtitle: "Choose which program/script is automatically run during boot."
       - name: "dietpi-backup"
         subtitle: "Backup or restore your DietPi system."
