@@ -10,6 +10,12 @@ columns: "auto" # auto
 
 documentTitle: "Startseite"
 
+message:
+  url: https://avm.de/rss/de-labor/rss.xml
+  mapping:
+    title: 'title'
+    content: 'link'
+
 header: false
 links:
   - icon: "fab fa-dropbox"
