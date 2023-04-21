@@ -11,10 +11,11 @@ columns: "auto" # auto
 documentTitle: "Startseite"
 
 message:
-  url: https://avm.de/rss/de-labor/rss.xml
+  url: https://api.chucknorris.io/jokes/random
   mapping:
-    title: 'title'
-    content: 'link'
+    content: 'value'
+  title: "Chuck Norris Facts!"
+  content: "Message could not be loaded"
 
 header: false
 links:
