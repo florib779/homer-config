@@ -11,10 +11,11 @@ columns: "auto" # auto
 documentTitle: "Startseite"
 
 message:
-  url: https://api.chucknorris.io/jokes/random
+  url: https://avm.de/rss/de-labor/rss.xml
   mapping:
-    content: 'value'
-  title: "Chuck Norris Facts!"
+    title: 'title'
+    content: 'link'
+  title: "AVM - FRITZ! Labor"
   content: "Message could not be loaded"
 
 header: true
