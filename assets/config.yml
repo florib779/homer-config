@@ -108,10 +108,10 @@ services:
     # https://github.com/florib779/Roon/blob/master/articles/roon-sonos.md
     # ToDo: Test links
     items:
-      - name: "Advconfig"
-        subtitle: "Set the root bridge (FirstZP and Priority to enabled)."
-        url: "http://192.168.178.62:1400/advconfig.htm"
-        target: "_blank"
+      #- name: "Advconfig"
+      #  subtitle: "Set the root bridge (FirstZP and Priority to enabled)."
+      #  url: "http://192.168.178.62:1400/advconfig.htm"
+      #  target: "_blank"
       - name: "Device description"
         url: "http://192.168.178.62:1400/xml/device_description.xml"
         target: "_blank"
@@ -119,10 +119,10 @@ services:
         subtitle: "Reboot the Sonos box."
         url: "http://192.168.178.62/reboot/"
         target: "_blank"
-      - name: "Region"
-        subtitle: "Set WLAN region (for Europe)."
-        url: "http://192.168.178.62/region.htm"
-        target: "_blank"
+      #- name: "Region"
+      #  subtitle: "Set WLAN region (for Europe)."
+      #  url: "http://192.168.178.62/region.htm"
+      #  target: "_blank"
       - name: "Status"
         url: "http://192.168.178.62:1400/status/"
         target: "_blank"
@@ -184,7 +184,7 @@ services:
         target: "_blank"
   - name: "DietPi-Commands"
     items:
-      - name: "dietpi-autostart"
+      - #name: "dietpi-autostart"
         clipboard: "dietpi-autostart"
         type: "CopyToClipboard"
         subtitle: "Choose which program/script is automatically run during boot."
