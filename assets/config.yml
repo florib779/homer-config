@@ -43,7 +43,7 @@ services:
         url: "https://community.roonlabs.com/"
         target: "_blank"
         type: Ping
-        method: "head"
+        method: "get"
       - name: "Valence"
         url: "https://valence.roonlabs.net/artdirector/"
         target: "_blank"
