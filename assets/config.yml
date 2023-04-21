@@ -42,6 +42,8 @@ services:
       - name: "Community"
         url: "https://community.roonlabs.com/"
         target: "_blank"
+        type: Ping
+        method: "head"
       - name: "Valence"
         url: "https://valence.roonlabs.net/artdirector/"
         target: "_blank"
@@ -85,9 +87,6 @@ services:
         subtitle: "FRITZ!OS"
         url: "https://fritz.box/"
         target: "_blank"
-        type: Ping
-        endpoint: "https://fritz.box/"
-        method: "head"
       - name: "MyFRITZ!"
         url: "https://fritz.box/myfritz/"
         target: "_blank"
