@@ -42,8 +42,6 @@ services:
       - name: "Community"
         url: "https://community.roonlabs.com/"
         target: "_blank"
-        type: Ping
-        method: "get"
       - name: "Valence"
         url: "https://valence.roonlabs.net/artdirector/"
         target: "_blank"
@@ -66,6 +64,8 @@ services:
         subtitle: "DietPi"
         url: "http://server:5252/"
         target: "_blank"
+        type: Ping
+        method: "get"
       - name: "Songkong"
         url: "http://server:4567/"
         target: "_blank"
