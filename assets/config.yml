@@ -65,7 +65,7 @@ services:
         url: "http://server:5252/"
         target: "_blank"
         type: Ping
-        method: "get"
+        method: "post"
       - name: "Songkong"
         url: "http://server:4567/"
         target: "_blank"
