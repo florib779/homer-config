@@ -17,7 +17,7 @@ message:
   title: "Chuck Norris Facts!"
   content: "Message could not be loaded"
 
-header: false
+header: true
 links:
   - icon: "fab fa-dropbox"
     url: "https://www.dropbox.com/"
