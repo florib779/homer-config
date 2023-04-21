@@ -64,8 +64,6 @@ services:
         subtitle: "DietPi"
         url: "http://server:5252/"
         target: "_blank"
-        type: Ping
-        method: "post"
       - name: "Songkong"
         url: "http://server:4567/"
         target: "_blank"
@@ -99,7 +97,6 @@ services:
         subtitle: "DietPi"
         url: "http://kiosk:5252/"
         target: "_blank"
-        #type: Ping
   - name: "Raspi"
     #logo: "assets/tools/raspberry.png"
     items:
