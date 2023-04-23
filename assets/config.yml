@@ -183,6 +183,7 @@ services:
         url: "https://burningshed.com/"
         target: "_blank"
   - name: "DietPi-Commands"
+    # https://dietpi.com/docs/dietpi_tools/
     items:
       - name: "dietpi-autostart"
         clipboard: "dietpi-autostart"
@@ -192,6 +193,10 @@ services:
         clipboard: "dietpi-backup"
         type: "CopyToClipboard"
         subtitle: "Backup or restore your DietPi system."
+      - name: "dietpi-banner"
+        clipboard: "dietpi-banner"
+        type: "CopyToClipboard"
+        subtitle: "Enables the configuration of the initial banner, displayed on logon."
       - name: "dietpi-bugreport"
         clipboard: "dietpi-bugreport"
         type: "CopyToClipboard"
