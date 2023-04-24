@@ -262,4 +262,4 @@ services:
         type: "CopyToClipboard"
         subtitle: "Update your version of DietPi."
 
-footer: '<p><a href="https://avm.de/" target="_blank">AVM</a> - <a href="https://dietpi.com/" target="_blank">DietPi</a> - <a href="https://roonlabs.com/" target="_blank">Roon</a> - <a href="https://sonos.com/" target="_blank">Sonos</a> - <a href="https://github.com/bastienwirtz/homer" target="_blank">Homer</a></p>'
+footer: '<p><a href="https://avm.de/" target="_blank">AVM</a> - <a href="https://dietpi.com/" target="_blank">DietPi</a> - <a href="https://roonlabs.com/" target="_blank">Roon</a> - <a href="https://sonos.com/" target="_blank">Sonos</a> - <a href="https://github.com/" target="_blank">GitHub</a> - <a href="https://github.com/bastienwirtz/homer" target="_blank">Homer</a></p>'
