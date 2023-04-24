@@ -22,7 +22,7 @@ links:
   - icon: "far fa-newspaper"
     url: "https://news.google.com/"
     target: "_blank"
-  - icon: "https://github.com/NX211/homer-icons/blob/master/png/google-mail.png"
+  - icon: "https://raw.githubusercontent.com/NX211/homer-icons/master/png/google-mail.png"
     #icon: "fas fa-envelope"
     url: "https://mail.google.com/"
     target: "_blank"
