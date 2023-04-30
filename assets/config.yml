@@ -261,5 +261,19 @@ services:
         clipboard: "dietpi-update"
         type: "CopyToClipboard"
         subtitle: "Update your version of DietPi."
+  - name: "Konsole-Commands"
+    items:
+      - name: "docker exec -it beets bash"
+        clipboard: "docker exec -it beets bash"
+        type: "CopyToClipboard"
+        subtitle: "Get access to Beets Dropbox Konsole"
+      - name: "beet import /mnt/external/music-incoming/*"
+        clipboard: "beet import /mnt/external/music-incoming/"
+        type: "CopyToClipboard"
+        subtitle: "Import music files with Beets"
+      - name: "rclone copy -P /mnt/music Dropbox:Backups/Music/music -v --log-file=rclone.log"
+        clipboard: "rclone copy -P /mnt/music Dropbox:Backups/Music/music -v --log-file=rclone.log"
+        type: "CopyToClipboard"
+        subtitle: "Copy local music file to Dropbox"
 
 footer: '<p><a href="https://avm.de/" target="_blank">AVM</a> - <a href="https://dietpi.com/" target="_blank">DietPi</a> - <a href="https://roonlabs.com/" target="_blank">Roon</a> - <a href="https://sonos.com/" target="_blank">Sonos</a> - <a href="https://github.com/" target="_blank">GitHub</a> - <a href="https://github.com/bastienwirtz/homer" target="_blank">Homer</a></p>'
