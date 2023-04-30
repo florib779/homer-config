@@ -168,7 +168,7 @@ services:
     # https://github.com/florib779/Roon/blob/master/articles/sources-for-downloadable-audio-files.md
     items:
       - name: "Qobuz"
-        url: "https://qobuz.com/"
+        url: "https://www.qobuz.com/de-de/shop"
         target: "_blank"
       - name: "Bandcamp"
         url: "https://bandcamp.com/"
@@ -177,7 +177,7 @@ services:
         url: "https://de.7digital.com/"
         target: "_blank"
       - name: "HIGHRESAUDIO"
-        url: "https://www.highresaudio.com/"
+        url: "https://www.highresaudio.com/de/site/index"
         target: "_blank"
       - name: "Burning Shed"
         url: "https://burningshed.com/"
