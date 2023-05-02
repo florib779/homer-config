@@ -91,6 +91,9 @@ services:
       - name: "FRITZ!NAS"
         url: "https://fritz.box/nas/"
         target: "_blank"
+      - name: "Notfall-IP"
+        url: "https://169.254.1.1"
+        target: "_blank"
   - name: "Kiosk"
     items:
       - name: "Dashboard"
