@@ -20,7 +20,7 @@ links:
     url: "https://paper.dropbox.com/"
     target: "_blank"
   - icon: "far fa-newspaper"
-    url: "https://news.google.com/"
+    url: "https://news.google.com/foryou"
     target: "_blank"
   - icon: "fas fa-envelope"
     url: "https://mail.google.com/"
