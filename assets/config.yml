@@ -24,7 +24,7 @@ links:
   - icon: "fas fa-calendar-alt"
     url: "https://calendar.google.com"
   - icon: "fas fa-address-card"
-    url: "https://contacts.google.com""
+    url: "https://contacts.google.com"
   - icon: "fas fa-tv"
     url: "http://server:9330/display"
 
