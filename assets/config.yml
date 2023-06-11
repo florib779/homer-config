@@ -72,6 +72,8 @@ services:
         url: "http://fritz.smartgateway"
       - name: "Notfall-IP"
         url: "https://169.254.1.1"
+      - name: "Paketmitschnitt"
+        url: "http://fritz.box/html/capture.html"
   - name: "Kiosk"
     items:
       - name: "Dashboard"
