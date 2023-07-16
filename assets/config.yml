@@ -276,7 +276,7 @@ services:
         clipboard: "docker exec -it beets bash"
         type: "CopyToClipboard"
         subtitle: "Get access to Beets Dropbox Konsole"
-      - name: "beet import /mnt/downloads/*"
+      - name: "beet import /downloads/*"
         clipboard: "beet import /mnt/downloads/"
         type: "CopyToClipboard"
         subtitle: "Import music files with Beets"
