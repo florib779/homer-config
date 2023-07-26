@@ -8,7 +8,7 @@
 
 columns: "auto" # auto
 
-documentTitle: "Startseite"
+documentTitle: "Start Page"
 
 header: false
 
@@ -95,10 +95,10 @@ services:
       - name: "FRITZ!Smart Gateway"
         url: "http://fritz.smartgateway"
         target: "_blank"
-      - name: "Notfall-IP"
+      - name: "Emergency-IP"
         url: "https://169.254.1.1"
         target: "_blank"
-      - name: "Paketmitschnitt"
+      - name: "Package recording"
         url: "http://fritz.box/html/capture.html"
         target: "_blank"
   - name: "Kiosk"
@@ -173,7 +173,7 @@ services:
       #  subtitle: "Turns off the WIFI interface completely. If you only want to work with network cable."
       #  url: "http://192.168.178.62:1400/wifictrl?wifi=persist-off"
       #  target: "_blank"
-  - name: "Musik-Download"
+  - name: "Music Download"
     # https://github.com/florib779/Roon/blob/master/articles/sources-for-downloadable-audio-files.md
     items:
       - name: "Qobuz"
@@ -190,6 +190,17 @@ services:
         target: "_blank"
       - name: "Burning Shed"
         url: "https://burningshed.com"
+        target: "_blank"
+  - name: "Music"
+    items:
+      - name: "Discogs"
+        url: "https://www.discogs.com"
+        target: "_blank"
+      - name: "Last.fm"
+        url: "https://www.last.fm/user/FloriB"
+        target: "_blank"
+      - name: "MusicBrainz"
+        url: "https://musicbrainz.org"
         target: "_blank"
   - name: "DietPi-Commands"
     # https://dietpi.com/docs/dietpi_tools
@@ -275,14 +286,14 @@ services:
       - name: "docker exec -it beets bash"
         clipboard: "docker exec -it beets bash"
         type: "CopyToClipboard"
-        subtitle: "Get access to Beets Dropbox Konsole"
+        subtitle: "Get access to Beets Dropbox Konsole."
       - name: "beet import /downloads/*"
         clipboard: "beet import /mnt/downloads/"
         type: "CopyToClipboard"
-        subtitle: "Import music files with Beets"
+        subtitle: "Import music files with Beets."
       - name: "rclone copy -P /mnt/music Dropbox:Backups/Music/music -v --log-file=rclone.log"
         clipboard: "rclone copy -P /mnt/music Dropbox:Backups/Music/music -v --log-file=rclone.log"
         type: "CopyToClipboard"
-        subtitle: "Copy local music files to Dropbox"
+        subtitle: "Copy local music files to Dropbox."
 
 footer: '<p><a href="https://avm.de" target="_blank">AVM</a> - <a href="https://dietpi.com" target="_blank">DietPi</a> - <a href="https://roonlabs.com" target="_blank">Roon</a> - <a href="https://sonos.com" target="_blank">Sonos</a> - <a href="https://github.com" target="_blank">GitHub</a> - <a href="https://github.com/bastienwirtz/homer" target="_blank">Homer</a></p>'
