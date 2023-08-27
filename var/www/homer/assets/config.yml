@@ -1,5 +1,6 @@
 ---
 
+# https://fontawesome.com/icons/font-awesome
 # https://github.com/NX211/homer-icons
 
 # Optional: Use external configuration file.
@@ -30,6 +31,9 @@ links:
     target: "_blank"
   - icon: "fas fa-address-card"
     url: "https://contacts.google.com"
+    target: "_blank"
+  - icon: "fa-solid fa-cart-shopping"
+    url: "https://alexa.amazon.de/spa/index.html"
     target: "_blank"
   - icon: "fas fa-tv"
     url: "http://server:9330/display"
