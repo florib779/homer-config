@@ -209,6 +209,9 @@ services:
       - name: "MusicBrainz"
         url: "https://musicbrainz.org"
         target: "_blank"
+      - name: "Muspy"
+        url: "https://muspy.com"
+        target: "_blank"
   - name: "DietPi-Commands"
     # https://dietpi.com/docs/dietpi_tools
     items:
